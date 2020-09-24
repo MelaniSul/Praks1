@@ -1,0 +1,19 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+article{
+    background-color: lightblue;
+    flex-basis: 250px;
+}
+
+.col-2{
+    grid-column: 1 / 3;
+}
